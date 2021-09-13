@@ -1,12 +1,5 @@
 package com.company;
 
-interface DanceImpl {
-
-    void spin();
-    void doTheCaterpillar();
-    void jump();
-
-}
 
 public abstract class Bird implements DanceImpl {
 
