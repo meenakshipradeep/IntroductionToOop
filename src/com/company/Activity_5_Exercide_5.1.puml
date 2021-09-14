@@ -18,13 +18,12 @@ void Speak()
 void fly()
 
 }
-interface Dance
-{
+interface Dance{
 void spin()
 void doTheCaterpillar()
 void jump()
 
 }
-Bird --> Dance
+Bird ..|> Dance
 
 @enduml
